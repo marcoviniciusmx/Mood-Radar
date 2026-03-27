@@ -1,8 +1,12 @@
 import {
   Button,
   Cards,
+  Choices,
   ClimateButton,
+  Current,
   CurrentWeather,
+  Description,
+  Diagnosis,
   Main,
   MainTexts,
   Parameters,
@@ -28,11 +32,11 @@ function Home() {
               <h2>Barulho</h2>
               <span className="material-symbols-outlined text-primary/40" data-icon="volume_up">volume_up</span>
             </Parameters>
-            <div>
+            <Choices>
               <Button>Silencioso</Button>
               <Button>Moderado</Button>
               <Button>Barulhento</Button>
-            </div>
+            </Choices>
           </Cards>
 
           <Cards>
@@ -40,11 +44,11 @@ function Home() {
               <h2>Pessoas</h2>
               <span className="material-symbols-outlined text-primary/40" data-icon="groups">groups</span>
             </Parameters>
-            <div>
+            <Choices>
               <Button>Vazio</Button>
               <Button>Normal</Button>
               <Button>Lotado</Button>
-            </div>
+            </Choices>
           </Cards>
 
           <Cards>
@@ -52,11 +56,11 @@ function Home() {
               <h2>Pressa</h2>
               <span class="material-symbols-outlined text-primary/40" data-icon="speed">speed</span>
             </Parameters>
-            <div>
+            <Choices>
               <Button>Calmo</Button>
               <Button>Dinâmico</Button>
               <Button>Urgente</Button>
-            </div>
+            </Choices>
           </Cards>
 
           <Cards>
@@ -64,11 +68,11 @@ function Home() {
               <h2>Humor</h2>
               <span class="material-symbols-outlined text-primary/40" data-icon="mood">mood</span>
             </Parameters>
-            <div>
+            <Choices>
               <Button>Alegre</Button>
               <Button>Sério</Button>
               <Button>Tenso</Button>
-            </div>
+            </Choices>
           </Cards>
 
           <ClimateButton>
@@ -82,14 +86,14 @@ function Home() {
           </ResetButton>
 
           <CurrentWeather>
-            <p>Clima atual</p>
+            <Current>Clima atual</Current>
 
-            <div>
+            <Diagnosis>
               <h3>Neutro</h3>
               <span class="material-symbols-outlined text-primary text-3xl" data-icon="cloud_queue">cloud_queue</span>
-            </div>
+            </Diagnosis>
 
-            <p>O ambiente está equilibrado, permitindo foco moderado sem grandes distrações externas.</p>
+            <Description>O ambiente está equilibrado, permitindo foco moderado sem grandes distrações externas.</Description>
 
             <Sugestion>
               <span class="material-symbols-outlined text-lg" data-icon="lightbulb">lightbulb</span>

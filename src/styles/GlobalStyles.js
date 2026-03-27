@@ -16,12 +16,12 @@ export const GlobalStyles = createGlobalStyle`
 }
 
 html, body {
-    background-color: #fafaf5;
+    background-color: #FFFFFF;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .material-symbols-outlined {
-    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    font-variation-settings: 'FILL' .0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
 }
 
 `

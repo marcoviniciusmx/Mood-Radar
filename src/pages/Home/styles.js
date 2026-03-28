@@ -85,6 +85,10 @@ transition: transform 0.25s ease-in-out;
 &:hover {
     transform: scale(1.08);
 }
+
+&.active {
+    background-color: #6dacff;
+}
 `
 
 export const ClimateButton = styled.button`

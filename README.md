@@ -11,6 +11,10 @@
   <a href="#-project-structure">Estrutura</a>
 </p>
 
+<br>
+
+<img src="./src/assets/Mockup - Mood Radar.png" alt="Mockup Mood Radar" width="100%">
+
 ---
 
 ## 🏠 About the project
